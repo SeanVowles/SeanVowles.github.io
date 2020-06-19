@@ -1,0 +1,23 @@
+{
+  "name": "seanvowles.github.io",
+  "version": "1.0.0",
+  "description": "Personal github pages site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch assets/styles -o styles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeanVowles/SeanVowles.github.io.git"
+  },
+  "author": "Sean Vowles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeanVowles/SeanVowles.github.io/issues"
+  },
+  "homepage": "https://github.com/SeanVowles/SeanVowles.github.io#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

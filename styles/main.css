@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  color: #222222; }
+
+.light-grey {
+  background-color: #f1f1f1; }
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+/* Column container */
+.row {
+  display: flex; }
+
+.column {
+  background-color: #ffffff;
+  margin: 0 15px 15px 0;
+  padding: 15px; }
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%; }
+
+/* Main column */
+.main {
+  flex: 70%; }
