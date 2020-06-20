@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   color: $black;
+  font-family: $site-font;
 }
 
 .light-grey {
@@ -13,7 +14,7 @@
 }
 
 /* Column container */
-.row {  
+.row {
   display: flex;
 }
 
@@ -23,13 +24,12 @@
   padding: 15px;
 }
 
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
-.side {
-  flex: 30%;
-}
+@media (max-width: 600px) {
+  .row {
+    flex-wrap: wrap;
+  }
 
-/* Main column */
-.main {
-  flex: 70%;
+  .column {
+    margin: 0 0 15px;
+  }
 }

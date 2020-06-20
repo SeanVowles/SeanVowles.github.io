@@ -1,0 +1,20 @@
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+    flex: 30%;
+}
+
+.side .profile-image {
+}
+
+.side .img-responsive {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 600px) {
+    .side {
+        flex: 100%;
+    }
+}

@@ -1,0 +1,10 @@
+/* Main column */
+.main {
+    flex: 70%;
+}
+
+@media (max-width: 600px) {
+    .main {
+        flex: 100%;
+    }
+}
