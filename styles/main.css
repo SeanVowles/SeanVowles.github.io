@@ -38,6 +38,14 @@
   src: local("../fonts/ Bold"), local("../fonts/-Bold"), url("../fonts/../fonts/-v20-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/../fonts/-v20-latin-700.woff2") format("woff2"), url("../fonts/../fonts/-v20-latin-700.woff") format("woff"), url("../fonts/../fonts/-v20-latin-700.ttf") format("truetype"), url("../fonts/../fonts/-v20-latin-700.svg#../fonts/") format("svg");
   /* Legacy iOS */ }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 20px 0; }
+
 * {
   box-sizing: border-box;
   color: #222222;
@@ -57,7 +65,7 @@
 .column {
   background-color: #ffffff;
   margin: 0 15px 15px 0;
-  padding: 15px; }
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19); }
 
 @media (max-width: 600px) {
   .row {
@@ -67,7 +75,7 @@
 
 /* Main column */
 .main {
-  flex: 70%; }
+  flex: 60%; }
 
 @media (max-width: 600px) {
   .main {
@@ -76,7 +84,7 @@
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-  flex: 30%; }
+  flex: 40%; }
 
 .side .img-responsive {
   max-width: 100%;

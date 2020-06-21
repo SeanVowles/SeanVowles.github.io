@@ -54,5 +54,14 @@
           /* Safari, Android, iOS */ url("../fonts/../fonts/-v20-latin-700.svg#../fonts/") format("svg"); /* Legacy iOS */
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+     margin: 0 0 20px 0;
+}
+
 // Variables
-$site-font: 'Roboto', sans-serif;
+$site-font: "Roboto", sans-serif;
