@@ -18,10 +18,17 @@
   display: flex;
 }
 
-.column {
-  background-color: $white;
+.panel {
+  @include box-shadow;
   margin: 0 15px 15px 0;
-  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+.display-container {
+  // nothing
+}
+
+.container {
+  padding: 20px;
 }
 
 @media (max-width: 600px) {
