@@ -1,16 +1,21 @@
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-    flex: 40%;
+    flex: 33%;
 }
 
-.side .profile-image {
+.side .display-container {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+
+.side .display-container img {
+    margin-top: -15px;
 }
 
 .side .img-responsive {
-    max-width: 100%;
-    height: auto;
-    display: block;
+    width: 100%;
 }
 
 @media (max-width: 600px) {

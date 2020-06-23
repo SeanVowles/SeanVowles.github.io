@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  color: $black;
   font-family: $site-font;
 }
 
@@ -9,8 +8,8 @@
 }
 
 .content {
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 1400px;
+  margin: 15px auto 0 auto;
 }
 
 /* Column container */
@@ -20,11 +19,11 @@
 
 .panel {
   @include box-shadow;
+  @include border-radius;
+  overflow: hidden;
   margin: 0 15px 15px 0;
-}
-
-.display-container {
-  // nothing
+  background-color: $white;
+  color: $grey;
 }
 
 .container {
