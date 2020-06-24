@@ -45,11 +45,15 @@ h4,
 h5,
 h6 {
   margin: 0 0 20px 0;
-  color: #222222; }
+  color: #757575; }
 
 * {
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+  color: #222222; }
+
+body {
+  margin: 0; }
 
 .light-grey {
   background-color: #f1f1f1; }
@@ -106,3 +110,12 @@ h6 {
 @media (max-width: 600px) {
   .side {
     flex: 100%; } }
+
+footer {
+  background-color: #1e88e5;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px; }
+
+footer > p {
+  color: #ffffff; }
